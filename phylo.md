@@ -12,7 +12,7 @@ In practice, inferring a phylogeny requires two steps:
 1. Alignment 
 2. Inferring the tree
 
-Below, I provide a tutorial for both of these steps. The outline I've provided above is precursory, but I will expand upon them as needed in the future. 
+Below, I provide a tutorial for both of these steps. The outline I've provided above is precursory and certain phylogenetic analyses may require more background information than an exercise of this scope can provide. 
 
 ## Alignment: 
 1. The alignment process will require two steps: I. aligning the sequences, and II. removing spurious nucleotides, gaps, etc. from the alignment (or Quality Control/QC). Each of these requires a different software package. To install these, you will need Anaconda installed and configured on your computer. Once Anaconda has been installed and configured, you may install the required software. Here, we will be using MAFFT to align sequences and TrimAl to QC the resulting alignment: 
@@ -20,7 +20,7 @@ Below, I provide a tutorial for both of these steps. The outline I've provided a
 conda install -c bioconda mafft 
 conda install -c bioconda trimal
 ```
-2. Run the following: `git clone https://github.com/CorbinBryan/PhyloPractice.git`. This will clone this github repository into a separate subdirectory of your computer. 
+2. Run the following: `git clone https://github.com/CorbinBryan/PhyloPractice.git`. This command will clone this github repository into a separate subdirectory of your computer. 
 3. Next, change into this subdirectory by doing the following: `cd PhyloPractice`
 4. In this repository, you should see a fasta file named `SectAmanitaITS.fa`. This file contains the sequences that we will align, and from which we will infer a maximum likelihood phylogeny. The following code uses MAFFT to generate an alignment and stores that alignment in `ITS_al.fa`. 
 ``` 
