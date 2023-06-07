@@ -45,4 +45,4 @@ conda install -c bioconda iqtree
 ```
 iqtree2 -s ITS_trim_al.fa --alrt 1000 -B 1000
 ``` 
-3. This will provide you with a completed phylogeny. For this exercise, your tree file should be named `ITS_trim_al.fa.treefile`. Open this using FigTree (or R's `ggtree` package, if you'd prefer). If you chose not to intall FigTree or don't feel like learning how to use `ggtree` (which is understandable given how unintuitive it can be at times), you can also visualize your tree file online [at this site](https://itol.embl.de).
+3. This will provide you with a completed phylogeny. For this exercise, your tree file should be named `ITS_trim_al.fa.treefile`. Open this using FigTree (or R's `ggtree` package, if you'd prefer). If you chose not to intall FigTree or don't feel like learning how to use `ggtree` (which is understandable given how unintuitive it can be at times), you can also visualize your tree file online [at this site](https://itol.embl.de). 
