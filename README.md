@@ -7,3 +7,5 @@ The following software are optional, but helpful:
 * [Visual Studio Code](https://code.visualstudio.com/) (helpful for writing reproducible scripts and keeping track of your own workflow)
 
 To get started, see `phylo.md` in the root of this repository. 
+
+See `ML_Bayesian.md` for a brief explanation of both Bayesian and Maximum likelihood inference. 
