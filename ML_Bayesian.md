@@ -18,4 +18,49 @@ Knowing what we do about likelihood functions, we obtain the following:
 $$
 L(\theta;x)=\prod_x p(x; \theta)
 $$
-For a given probability distribution, we can use this equation to determine the best value of $\theta$ by finding the value that maximizes this likelihood function. Recall that the actual equation that $p(x;\theta)$ represents is dependent on the type of probability distribution that random variable follows. Basically, this process determines the parameter estimates that best describe the observed data. There's some nuance in the actual determination of the value of the parameter, but we mustn't get into those here. 
+You can think of the semicolon in the above equations as meaning "given some value of". So, we have the likelihood function of some parameter, $\theta$ _given_ some value of $x$. In otherwords, $x$ is known and we want to find our value of $\theta$. 
+
+>**Note:** $L(\theta;x)$ is often written as $L(\theta|x)$. The two notations are functionally equivalent
+
+For a given probability distribution, we can use this equation to determine the best value of $\theta$ by finding the value that maximizes this likelihood function. Recall that the actual equation that $p(x;\theta)$ represents is dependent on the type of probability distribution that random variable follows. Basically, this process determines the parameter estimates that best describe the observed data. There's some nuance in the actual determination of the value of the parameter, but we don't need to get into those here. 
+
+### **Application to Phylogenetics:**
+In phylogenetics, there are two parameters we need to determine: the topology of the phylogeny (i.e., the 'shape' of the phylogeny) and the branch lengths. I won't go into how this is modeled here. However, the DNA substitution model chosen for an analysis basically determines the final 'shape' of the likelihood function as well as the number of additional parameters used to determine the branch lenghts. These DNA substitution models may allow different substitution rates for different processes (i.e., transitions, transversion, etc.) or, in the simplest case, assume that all substitution processes occur at the same rate. For our purposes, let $T$ be the topology of the final phylogeny and $\mu$ be either one parameter or a vector of parameters describing the branch lengths (which are given in expected numbers of nucleotide changes). Let $D$ represent some aligned set of orthologous sequences. We can write 
+$$
+L(T,\mu|D)
+$$
+Accordingly, maximum likelihood phylogenies contains branch lengths and topologies that maximize the probability of observing an alignment
+## Bayesian Inference: 
+Bayesian inference can be rather hard to wrap your head around. Let's start with Bayes theorem, which is used to describe conditional probabilities: 
+$$
+P(A|B)=\frac{P(B|A)P(A)}{P(B)}
+$$
+Let's break this equation down: 
+* $P(A|B)$ is the **posterior probability**. This is the credibility of A if you know that B is true. 
+* $P(A)$ is the **prior probability**, which represents some initial belief that A is true _before you have examined A_. 
+* $P(B)$ is the marginal likelihood. This often just makes life harder, but you can think about it as the probability that B is true. If B is some data, you can think about the marginal likelihood as the probability of generating that data. 
+
+I like to rephrase this in terms of model, $M$, and evidence, $E$: 
+$$
+P(M|E)=\frac{P(E|M)P(M)}{P(E)}
+$$
+$P(E)$ can be difficult to calculate, and often isn't in Bayesian inference because it is the same for all data points. 
+
+The application of Bayesian inference to phylogenetics may not appear clear. However, let's return to our previous terminology using $T$ to refer to the topology and $\mu$ to refer to branch lengths. $D$ is once again an aligned set of orthologous, single copy sequences. Ignoring the intractable (unable to be calculated) marginal likelihood, we can rewrite the above equation as: 
+$$
+P(T,l|D)\propto P(D|T,l)P(T)P(l)
+$$
+Where $P(T)$ and $P(l)$ represent the priors on the topology and branch lengths, respectively. A prior must be selected for all parameters estimated in Bayesian inference. When inferring models, these priors are distributions that you determine _before looking at your data_ based on the range and expected value of a parameter estimate. In the case that you know nothing about your data, an uninformative or 'flat' prior can be used. 
+
+In Bayesian inference, one maximizes the posterior probability rather than the likelihood function. This posterior probability ($P(T,l|D)$ above) follows a posterior distribution. Bayesian inference algorithms estimate parameters to "map" this distribution using an algorithm that "spends more time" in regions of the distribution that have higher probability. This allows you to find branch lengths and topologies that are most credible. 
+
+Here are some best practices for Bayesian phylogenetics which I will explain as needed: 
+1. Always check your tracer plot after you run your analysis. Look for convergence and check burn in. 
+2. Always perform a "dry" run where you sample from the prior alone and compare that to the sampled posterior distribution. This lets you check the relative contributions from the priors _and_ from the data. 
+3. Do not combine maximum likelihood and Bayesian methodologies unless absolutely necessary. Their assumptions are incompatible. 
+
+## Summary: 
+* ML analyses find parameters directly from DNA alignments. Bayesian analyses incorporate prior data into this analysis. 
+* Prior distributions in Bayesian phylogenetics are probability distributions that describe the expected range and value of estimated parameters. 
+* Posterior distribution can be thought of as the probability of a model given some observed data and some prior knowledge. Bayesian analysis uses this distribution to find the model values which are most _credible_ for your data. 
+* Maximum likelihood analysis uses only the likelihood function, which uses the probability of observing your data to solve for maximally likely value of some parameter used to describe that data. 
