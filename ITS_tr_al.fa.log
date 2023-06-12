@@ -1,0 +1,654 @@
+IQ-TREE multicore version 2.2.2.3 COVID-edition for Mac OS X 64-bit built Apr  7 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Corbins-MBP.lan (SSE4.2, 16 GB RAM)
+Command: iqtree -s ITS_tr_al.fa
+Seed:    187487 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Jun 12 12:10:50 2023
+Kernel:  SSE2 - 1 threads (8 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 8 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file ITS_tr_al.fa ... Fasta format detected
+Reading fasta file: done in 0.00392985 secs using 88.88% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0020709 secs using 75.91% CPU
+WARNING: 1 sites contain only gaps or ambiguous characters.
+Alignment has 144 sequences with 1280 columns, 748 distinct patterns
+414 parsimony-informative, 109 singleton sites, 757 constant sites
+WARNING: Some sequence names are changed as follows:
+KR152656.1_Amanita_alpinicola_voucher_CLC2355_(MONT)_18S_ribosomal_RNA_gene -> KR152656.1_Amanita_alpinicola_voucher_CLC2355__MONT__18S_ribosomal_RNA_gene
+KR152655.1_Amanita_alpinicola_voucher_CLC2376_(MONT)_18S_ribosomal_RNA_gene -> KR152655.1_Amanita_alpinicola_voucher_CLC2376__MONT__18S_ribosomal_RNA_gene
+MT406075.1_Amanita_sp._'ameripanthera'_voucher_RET_423-9_internal_transcribed_spacer_1 -> MT406075.1_Amanita_sp.__ameripanthera__voucher_RET_423-9_internal_transcribed_spacer_1
+MT406074.1_Amanita_sp._'ameripanthera'_voucher_RET_274-9_18S_ribosomal_RNA_gene -> MT406074.1_Amanita_sp.__ameripanthera__voucher_RET_274-9_18S_ribosomal_RNA_gene
+MT406079.1_Amanita_sp._'ameripanthera'_voucher_RET_042-3_18S_ribosomal_RNA_gene -> MT406079.1_Amanita_sp.__ameripanthera__voucher_RET_042-3_18S_ribosomal_RNA_gene
+KU985207.1_Amanita_sp._'farinosa_sensu_Thiers'_voucher_RET_426-5_internal_transcribed_spacer_1 -> KU985207.1_Amanita_sp.__farinosa_sensu_Thiers__voucher_RET_426-5_internal_transcribed_spacer_1
+KU985208.1_Amanita_sp._'farinosa_sensu_Thiers'_voucher_RET_493-3_18S_ribosomal_RNA_gene -> KU985208.1_Amanita_sp.__farinosa_sensu_Thiers__voucher_RET_493-3_18S_ribosomal_RNA_gene
+KU985209.1_Amanita_sp._'farinosa_sensu_Thiers'_voucher_RET_508-2_18S_ribosomal_RNA_gene -> KU985209.1_Amanita_sp.__farinosa_sensu_Thiers__voucher_RET_508-2_18S_ribosomal_RNA_gene
+KY924831.1_Amanita_sp._'hallingiana'_voucher_Halling_7361_18S_ribosomal_RNA_gene -> KY924831.1_Amanita_sp.__hallingiana__voucher_Halling_7361_18S_ribosomal_RNA_gene
+KY924832.1_Amanita_sp._'hallingiana'_voucher_Halling_7396_18S_ribosomal_RNA_gene -> KY924832.1_Amanita_sp.__hallingiana__voucher_Halling_7396_18S_ribosomal_RNA_gene
+KY924833.1_Amanita_sp._'hallingiana'_voucher_RET_292-7_18S_ribosomal_RNA_gene -> KY924833.1_Amanita_sp.__hallingiana__voucher_RET_292-7_18S_ribosomal_RNA_gene
+KY924834.1_Amanita_sp._'hallingiana'_voucher_RET_331-2_18S_ribosomal_RNA_gene -> KY924834.1_Amanita_sp.__hallingiana__voucher_RET_331-2_18S_ribosomal_RNA_gene
+KY924835.1_Amanita_sp._'hallingiana'_voucher_RET_334-5_18S_ribosomal_RNA_gene -> KY924835.1_Amanita_sp.__hallingiana__voucher_RET_334-5_18S_ribosomal_RNA_gene
+MH930990.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_CLO_4521_18S_ribosomal_RNA_gene -> MH930990.1_Amanita_sp.__pubescens_sensu_Coker__voucher_CLO_4521_18S_ribosomal_RNA_gene
+MH930991.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_802-10_18S_ribosomal_RNA_gene -> MH930991.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_802-10_18S_ribosomal_RNA_gene
+MH930992.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_430-5_internal_transcribed_spacer_1 -> MH930992.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_430-5_internal_transcribed_spacer_1
+MH930993.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_599-3_18S_ribosomal_RNA_gene -> MH930993.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_599-3_18S_ribosomal_RNA_gene
+MH930994.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_605-4_18S_ribosomal_RNA_gene -> MH930994.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_605-4_18S_ribosomal_RNA_gene
+MH930995.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_606-6_18S_ribosomal_RNA_gene -> MH930995.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_606-6_18S_ribosomal_RNA_gene
+MH930996.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_606-8_18S_ribosomal_RNA_gene -> MH930996.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_606-8_18S_ribosomal_RNA_gene
+MH930997.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_683-7_18S_ribosomal_RNA_gene -> MH930997.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_683-7_18S_ribosomal_RNA_gene
+MH930998.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_CLO_4754_18S_ribosomal_RNA_gene -> MH930998.1_Amanita_sp.__pubescens_sensu_Coker__voucher_CLO_4754_18S_ribosomal_RNA_gene
+MK327264.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_809-1_18S_ribosomal_RNA_gene -> MK327264.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_809-1_18S_ribosomal_RNA_gene
+MK327267.1_Amanita_sp._'pubescens_sensu_Coker'_voucher_RET_599-2_18S_ribosomal_RNA_gene -> MK327267.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_599-2_18S_ribosomal_RNA_gene
+MK204466.1_Amanita_sp._'subvelatipes'_voucher_RET_674-9_internal_transcribed_spacer_1 -> MK204466.1_Amanita_sp.__subvelatipes__voucher_RET_674-9_internal_transcribed_spacer_1
+MK204467.1_Amanita_sp._'subvelatipes'_voucher_RET_483-10_18S_ribosomal_RNA_gene -> MK204467.1_Amanita_sp.__subvelatipes__voucher_RET_483-10_18S_ribosomal_RNA_gene
+MT421965.1_Amanita_sp._'ameripanthera'_voucher_RET_115-8_18S_ribosomal_RNA_gene -> MT421965.1_Amanita_sp.__ameripanthera__voucher_RET_115-8_18S_ribosomal_RNA_gene
+KY435405.1_Amanita_sp._'sp-AUS14'_voucher_RET_688-3_18S_ribosomal_RNA_gene -> KY435405.1_Amanita_sp.__sp-AUS14__voucher_RET_688-3_18S_ribosomal_RNA_gene
+KY435406.1_Amanita_sp._'sp-AUS14'_voucher_RET_688-4_18S_ribosomal_RNA_gene -> KY435406.1_Amanita_sp.__sp-AUS14__voucher_RET_688-4_18S_ribosomal_RNA_gene
+KY435407.1_Amanita_sp._'sp-AUS14'_voucher_RET_688-8_18S_ribosomal_RNA_gene -> KY435407.1_Amanita_sp.__sp-AUS14__voucher_RET_688-8_18S_ribosomal_RNA_gene
+EU071959.1_Amanita_sp._'sp-LG862'_strain_LG864_internal_transcribed_spacer_1 -> EU071959.1_Amanita_sp.__sp-LG862__strain_LG864_internal_transcribed_spacer_1
+EU071958.1_Amanita_sp._'sp-LG862'_strain_LG862_internal_transcribed_spacer_1 -> EU071958.1_Amanita_sp.__sp-LG862__strain_LG862_internal_transcribed_spacer_1
+KP224312.1_Amanita_sp._'sp-N60'_voucher_RET_449-6_clone_c8_18S_ribosomal_RNA_gene -> KP224312.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c8_18S_ribosomal_RNA_gene
+KP224313.1_Amanita_sp._'sp-N60'_voucher_RET_449-6_clone_c2_18S_ribosomal_RNA_gene -> KP224313.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c2_18S_ribosomal_RNA_gene
+KP224314.1_Amanita_sp._'sp-N60'_voucher_RET_449-6_clone_c1_18S_ribosomal_RNA_gene -> KP224314.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c1_18S_ribosomal_RNA_gene
+KP224315.1_Amanita_sp._'sp-N60'_voucher_RET_449-6_clone_c5_18S_ribosomal_RNA_gene -> KP224315.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c5_18S_ribosomal_RNA_gene
+
+                                                                                                          Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.000172138 secs using 90.04% CPU
+   1  KU248124.1_Amanita_albocreata_voucher_RET_031-5_18S_ribosomal_RNA_gene                                     45.16%    passed     97.51%
+   2  KU248125.1_Amanita_albocreata_voucher_RET_329-10_18S_ribosomal_RNA_gene                                    45.23%    passed     98.17%
+   3  KU248126.1_Amanita_albocreata_voucher_RET_417-4_18S_ribosomal_RNA_gene                                     45.23%    passed     98.17%
+   4  KU248127.1_Amanita_albocreata_voucher_RET_054-8_18S_ribosomal_RNA_gene                                     45.86%    passed     98.76%
+   5  KR152656.1_Amanita_alpinicola_voucher_CLC2355__MONT__18S_ribosomal_RNA_gene                                49.53%    passed     98.60%
+   6  KR152655.1_Amanita_alpinicola_voucher_CLC2376__MONT__18S_ribosomal_RNA_gene                                49.14%    passed     98.17%
+   7  MW579510.1_Amanita_alpinicola_voucher_RET_128-6_18S_ribosomal_RNA_gene                                     48.44%    passed     98.05%
+   8  AY436445.1_Amanita_altipes_voucher_HKAS_36609_internal_transcribed_spacer_1                                54.69%    passed     66.96%
+   9  MT406075.1_Amanita_sp.__ameripanthera__voucher_RET_423-9_internal_transcribed_spacer_1                     53.75%    passed     88.27%
+  10  MT406074.1_Amanita_sp.__ameripanthera__voucher_RET_274-9_18S_ribosomal_RNA_gene                            46.88%    passed     98.88%
+  11  MT406079.1_Amanita_sp.__ameripanthera__voucher_RET_042-3_18S_ribosomal_RNA_gene                            45.23%    passed     88.23%
+  12  KF561972.1_Amanita_aprica_voucher_RET_128-5_18S_ribosomal_RNA_gene                                         45.62%    passed     82.23%
+  13  KF561973.1_Amanita_aprica_voucher_RET_534-7_18S_ribosomal_RNA_gene                                         51.25%    passed     90.90%
+  14  KJ535439.1_Amanita_breckonii_voucher_NY_00066695_18S_ribosomal_RNA_gene                                    44.30%    passed     92.51%
+  15  KR919757.1_Amanita_breckonii_voucher_RET_174-8a_internal_transcribed_spacer_1                              53.91%    passed     90.03%
+  16  KR919756.1_Amanita_breckonii_voucher_RET_174-7_internal_transcribed_spacer_1_and_5.8S_ribosomal_RNA_gene   84.06%    passed     64.25%
+  17  KR919758.1_Amanita_breckonii_voucher_RET_174-8b_internal_transcribed_spacer_1                              52.89%    passed     94.73%
+  18  EU071911.1_Amanita_chrysoblema_strain_RET320-1_internal_transcribed_spacer_1                               49.45%    passed     86.08%
+  19  EU071913.1_Amanita_muscaria_strain_RET144-10_internal_transcribed_spacer_1                                 49.77%    passed     87.87%
+  20  EU071910.1_Amanita_muscaria_strain_CMP0648_internal_transcribed_spacer_1                                   49.77%    passed     87.87%
+  21  EU071903.1_Amanita_muscaria_strain_RET145-2_internal_transcribed_spacer_1                                  49.77%    passed     87.87%
+  22  EU071902.1_Amanita_muscaria_strain_CMP1345_internal_transcribed_spacer_1                                   49.84%    passed     86.71%
+  23  EU071889.1_Amanita_muscaria_strain_CMP3143_internal_transcribed_spacer_1                                   49.77%    passed     87.87%
+  24  EU071893.1_Amanita_muscaria_strain_RET383-3_internal_transcribed_spacer_1                                  49.92%    passed     76.75%
+  25  EU071896.1_Amanita_muscaria_strain_RET124-2_internal_transcribed_spacer_1                                  49.92%    passed     76.75%
+  26  EU071899.1_Amanita_muscaria_strain_RET271-2_internal_transcribed_spacer_1                                  49.84%    passed     73.65%
+  27  EU071901.1_Amanita_muscaria_strain_RET289-3_internal_transcribed_spacer_1                                  49.92%    passed     74.11%
+  28  EU071916.1_Amanita_muscaria_strain_RET158-7_internal_transcribed_spacer_1                                  49.92%    passed     74.11%
+  29  EU071917.1_Amanita_muscaria_strain_RET303-4_internal_transcribed_spacer_1                                  49.84%    passed     76.16%
+  30  EU071919.1_Amanita_muscaria_strain_RET271-3_internal_transcribed_spacer_1                                  49.92%    passed     81.23%
+  31  AB080783.1_Amanita_concentrica_genes_for_18S_rRNA                                                          42.97%    passed     77.35%
+  32  MK204468.1_Amanita_crenulata_voucher_RET_675-9_18S_ribosomal_RNA_gene                                      27.42%    passed     29.23%
+  33  KT213722.1_Amanita_sp._DMSC20382_internal_transcribed_spacer_1                                             52.42%    passed     96.92%
+  34  KU985207.1_Amanita_sp.__farinosa_sensu_Thiers__voucher_RET_426-5_internal_transcribed_spacer_1             51.41%    passed     24.07%
+  35  KU985208.1_Amanita_sp.__farinosa_sensu_Thiers__voucher_RET_493-3_18S_ribosomal_RNA_gene                    46.02%    passed     16.55%
+  36  KU985209.1_Amanita_sp.__farinosa_sensu_Thiers__voucher_RET_508-2_18S_ribosomal_RNA_gene                    47.19%    passed     10.55%
+  37  KT072740.1_Amanita_fibrillopes_voucher_RET_447-2_18S_ribosomal_RNA_gene                                    35.47%    passed     64.84%
+  38  JX398314.1_Amanita_fibrillopes_voucher_PERTH08353158_clone_26_18S_ribosomal_RNA_gene                       44.92%    passed     99.68%
+  39  MH508355.1_Amanita_flavopantherina_voucher_HKAS82613_internal_transcribed_spacer_1                         54.92%    passed     90.83%
+  40  KP313579.1_Amanita_frostiana_voucher_RET_588-2_18S_ribosomal_RNA_gene                                      46.48%    passed     99.31%
+  41  KP313580.1_Amanita_frostiana_voucher_RET_543-6_18S_ribosomal_RNA_gene                                      48.12%    passed     97.08%
+  42  KP313581.1_Amanita_frostiana_voucher_RET_547-2_18S_ribosomal_RNA_gene                                      46.41%    passed     99.23%
+  43  KP313582.1_Amanita_frostiana_voucher_RET_546-2_18S_ribosomal_RNA_gene                                      48.20%    passed     98.19%
+  44  KP313583.1_Amanita_frostiana_voucher_RET_588-6_18S_ribosomal_RNA_gene                                      47.03%    passed     99.43%
+  45  KT213719.1_Amanita_sp._DMSC09615_internal_transcribed_spacer_1                                             53.91%    passed     55.95%
+  46  MH508385.1_Amanita_griseopantherina_voucher_HKAS83560_internal_transcribed_spacer_1                        53.59%    passed     80.72%
+  47  KY924831.1_Amanita_sp.__hallingiana__voucher_Halling_7361_18S_ribosomal_RNA_gene                           45.31%    passed     95.65%
+  48  KY924832.1_Amanita_sp.__hallingiana__voucher_Halling_7396_18S_ribosomal_RNA_gene                           45.70%    passed     95.21%
+  49  KY924833.1_Amanita_sp.__hallingiana__voucher_RET_292-7_18S_ribosomal_RNA_gene                              45.86%    passed     98.66%
+  50  KY924834.1_Amanita_sp.__hallingiana__voucher_RET_331-2_18S_ribosomal_RNA_gene                              44.84%    passed     97.55%
+  51  KY924835.1_Amanita_sp.__hallingiana__voucher_RET_334-5_18S_ribosomal_RNA_gene                              45.62%    passed     94.80%
+  52  AB080985.1_Amanita_ibotengutake_genes_for_18S_rRNA                                                         44.38%    passed     88.20%
+  53  AB080986.1_Amanita_ibotengutake_genes_for_18S_rRNA                                                         44.38%    passed     88.20%
+  54  AB080987.1_Amanita_ibotengutake_genes_for_18S_rRNA                                                         44.38%    passed     90.46%
+  55  AB080989.1_Amanita_ibotengutake_genes_for_18S_rRNA                                                         44.22%    passed     91.30%
+  56  AB080990.1_Amanita_ibotengutake_genes_for_18S_rRNA                                                         44.22%    passed     89.29%
+  57  AB080991.1_Amanita_ibotengutake_genes_for_18S_rRNA                                                         44.06%    passed     91.94%
+  58  OM040561.1_Amanita_kalasinensis_voucher_SDBR-STO-2020-231_small_subunit_ribosomal_RNA_gene                 52.81%    passed     50.47%
+  59  EU071890.1_Amanita_muscaria_strain_RET032-1_internal_transcribed_spacer_1                                  50.00%    passed     93.52%
+  60  EU071894.1_Amanita_muscaria_strain_RET149-2_internal_transcribed_spacer_1                                  50.00%    passed     93.76%
+  61  EU071895.1_Amanita_muscaria_strain_RET149-1_internal_transcribed_spacer_1                                  50.00%    passed     93.76%
+  62  EU071897.1_Amanita_muscaria_strain_RET152-6_internal_transcribed_spacer_1                                  50.08%    passed     92.99%
+  63  EU071909.1_Amanita_muscaria_strain_RET107-6_internal_transcribed_spacer_1                                  50.00%    passed     92.33%
+  64  EU071912.1_Amanita_muscaria_strain_RET036-3_internal_transcribed_spacer_1                                  50.00%    passed     93.52%
+  65  EU071914.1_Amanita_muscaria_strain_RET309-3_internal_transcribed_spacer_1                                  50.08%    passed     92.89%
+  66  EU071920.1_Amanita_muscaria_strain_RET152-8_internal_transcribed_spacer_1                                  50.23%    passed     87.44%
+  67  KP866167.1_Amanita_muscaria_voucher_RET_473-5_18S_ribosomal_RNA_gene                                       41.56%    passed     88.12%
+  68  GQ925398.1_Amanita_oleosa_voucher_H7627_clone_11_18S_ribosomal_RNA_gene                                    48.28%    passed     96.75%
+  69  GQ925399.1_Amanita_oleosa_voucher_H7627_clone_13_18S_ribosomal_RNA_gene                                    48.12%    passed     97.58%
+  70  GQ925400.1_Amanita_oleosa_voucher_H7627_clone_14_18S_ribosomal_RNA_gene                                    48.28%    passed     97.03%
+  71  AY436465.1_Amanita_orientigemmata_voucher_HKAS_38345_internal_transcribed_spacer_1                         62.03%    passed     75.62%
+  72  KX061523.1_Amanita_pakistanica_voucher_RET_140-3_18S_ribosomal_RNA_gene                                    75.23%    passed     84.88%
+  73  KX061524.1_Amanita_pakistanica_voucher_NY_00632703_18S_ribosomal_RNA_gene                                  49.45%    passed     91.52%
+  74  KX061525.1_Amanita_pakistanica_voucher_RET_352-1_18S_ribosomal_RNA_gene                                    44.69%    passed     95.21%
+  75  KX365198.1_Amanita_pakistanica_voucher_RET_317-6_18S_ribosomal_RNA_gene                                    46.09%    passed     95.84%
+  76  MK204464.1_Amanita_pantherina_voucher_RET_293-6_internal_transcribed_spacer_1                              55.62%    passed     67.41%
+  77  MK204465.1_Amanita_pantherina_voucher_RET_294-1_internal_transcribed_spacer_1                              49.84%    passed     67.76%
+  78  MK327258.1_Amanita_pantherina_voucher_RET_039-2_18S_ribosomal_RNA_gene                                     46.64%    passed     98.60%
+  79  MK327259.1_Amanita_pantherina_voucher_RET_294-3_internal_transcribed_spacer_1                              68.67%    passed     99.51%
+  80  MK327260.1_Amanita_pantherina_voucher_RET_403-8_18S_ribosomal_RNA_gene                                     49.77%    passed     95.04%
+  81  KP313585.1_Amanita_parcivolvata_voucher_RET_297-1_18S_ribosomal_RNA_gene                                   57.58%    passed     99.18%
+  82  KP313584.1_Amanita_parcivolvata_voucher_RET_511-10_18S_ribosomal_RNA_gene                                  49.30%    passed     85.39%
+  83  KP313586.1_Amanita_parcivolvata_voucher_RET_504-5_18S_ribosomal_RNA_gene                                   49.77%    passed     86.87%
+  84  EU071886.1_Amanita_persicina_strain_RET024-3_internal_transcribed_spacer_1                                 49.92%    passed     94.22%
+  85  EU071887.1_Amanita_persicina_strain_RET112-5_internal_transcribed_spacer_1                                 49.92%    passed     91.95%
+  86  EU071888.1_Amanita_persicina_strain_RET112-6_internal_transcribed_spacer_1                                 49.92%    passed     91.95%
+  87  EU071891.1_Amanita_persicina_strain_RET151-6_internal_transcribed_spacer_1                                 49.92%    passed     91.95%
+  88  EU071892.1_Amanita_persicina_strain_RET151-4_internal_transcribed_spacer_1                                 49.92%    passed     91.95%
+  89  EU071926.1_Amanita_persicina_strain_RET328-2_internal_transcribed_spacer_1                                 49.92%    passed     91.95%
+  90  AY436472.1_Amanita_pseudogemmata_voucher_HKAS_38371_internal_transcribed_spacer_1                          60.00%    passed     88.93%
+  91  MH508514.1_Amanita_pseudopantherina_voucher_HKAS80007_internal_transcribed_spacer_1                        54.06%    passed     60.66%
+  92  MH930990.1_Amanita_sp.__pubescens_sensu_Coker__voucher_CLO_4521_18S_ribosomal_RNA_gene                     46.17%    passed     99.78%
+  93  MH930991.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_802-10_18S_ribosomal_RNA_gene                   46.41%    passed     99.73%
+  94  MH930992.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_430-5_internal_transcribed_spacer_1             70.94%    passed     31.98%
+  95  MH930993.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_599-3_18S_ribosomal_RNA_gene                    46.56%    passed     99.48%
+  96  MH930994.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_605-4_18S_ribosomal_RNA_gene                    48.91%    passed     95.67%
+  97  MH930995.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_606-6_18S_ribosomal_RNA_gene                    46.48%    passed     99.72%
+  98  MH930996.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_606-8_18S_ribosomal_RNA_gene                    49.92%    passed     94.45%
+  99  MH930997.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_683-7_18S_ribosomal_RNA_gene                    48.59%    passed     97.27%
+ 100  MH930998.1_Amanita_sp.__pubescens_sensu_Coker__voucher_CLO_4754_18S_ribosomal_RNA_gene                     43.05%    passed     94.30%
+ 101  MK327264.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_809-1_18S_ribosomal_RNA_gene                    26.95%    passed     77.67%
+ 102  MK327267.1_Amanita_sp.__pubescens_sensu_Coker__voucher_RET_599-2_18S_ribosomal_RNA_gene                    24.61%    passed     64.15%
+ 103  KT213723.1_Amanita_sp._DMSC410876_internal_transcribed_spacer_1                                            55.31%    passed     84.35%
+ 104  OM040566.1_Amanita_ravicrocina_voucher_SDBR-STO-2020-229_internal_transcribed_spacer_1                     53.28%    passed     84.89%
+ 105  OM040567.1_Amanita_ravicrocina_voucher_SDBR-STO-2020-235_small_subunit_ribosomal_RNA_gene                  49.06%    passed     85.19%
+ 106  OM040568.1_Amanita_ravicrocina_voucher_CMUB-39967_small_subunit_ribosomal_RNA_gene                         52.73%    passed     91.32%
+ 107  OM040569.1_Amanita_ravicrocina_voucher_SDBR-STO-2020-283_internal_transcribed_spacer_1                     52.73%    passed     83.22%
+ 108  AB080780.1_Amanita_muscaria_var._regalis_genes_for_18S_rRNA                                                45.55%    passed     90.38%
+ 109  AB080781.1_Amanita_muscaria_var._regalis_genes_for_18S_rRNA                                                45.55%    passed     90.38%
+ 110  AB080782.1_Amanita_muscaria_var._regalis_genes_for_18S_rRNA                                                45.55%    passed     90.38%
+ 111  AB096058.1_Amanita_sinensis_genes_for_18S_rRNA                                                             42.97%    passed     90.14%
+ 112  AB096059.1_Amanita_sinensis_genes_for_18S_rRNA                                                             43.75%    passed     85.62%
+ 113  KU985202.1_Amanita_sinensis_voucher_RET_358-3_internal_transcribed_spacer_1                                67.73%    passed     37.08%
+ 114  KU985204.1_Amanita_sinensis_voucher_RET_456-6_18S_ribosomal_RNA_gene                                       49.53%    passed     53.89%
+ 115  KU985205.1_Amanita_sinensis_voucher_RET_358-8_18S_ribosomal_RNA_gene                                       50.08%    passed     72.05%
+ 116  KU985206.1_Amanita_sinensis_voucher_RET_358-9_internal_transcribed_spacer_1                                70.08%    passed     64.91%
+ 117  KU248107.1_Amanita_subglobosa_voucher_RET_412-5_18S_ribosomal_RNA_gene                                     50.23%    passed     96.94%
+ 118  KU248106.1_Amanita_subglobosa_voucher_RET_410-2_18S_ribosomal_RNA_gene                                     46.09%    passed     99.52%
+ 119  KX810031.1_Amanita_subglobosa_voucher_RET_717-5_18S_ribosomal_RNA_gene                                     43.52%    passed     90.66%
+ 120  MZ045685.1_Amanita_submelleialba_voucher_HKAS_112958_small_subunit_ribosomal_RNA_gene                      50.00%    passed     86.54%
+ 121  MZ045687.1_Amanita_submelleialba_voucher_HKAS_112960_small_subunit_ribosomal_RNA_gene                      49.77%    passed     83.69%
+ 122  MZ045688.1_Amanita_submelleialba_voucher_CMUB-S1_small_subunit_ribosomal_RNA_gene                          50.08%    passed     86.29%
+ 123  MZ045689.1_Amanita_submelleialba_voucher_HKAS_112962_small_subunit_ribosomal_RNA_gene                      52.03%    passed     80.33%
+ 124  JN943169.1_Amanita_sp._QC-2015_strain_HKAS_54236_internal_transcribed_spacer_1                             49.06%    passed     99.61%
+ 125  JN943170.1_Amanita_sp._QC-2015_strain_HKAS_56822_internal_transcribed_spacer_1                             46.17%    passed     94.56%
+ 126  JN943171.1_Amanita_sp._QC-2015_strain_HKAS_56817_internal_transcribed_spacer_1                             44.92%    passed     90.66%
+ 127  MK204466.1_Amanita_sp.__subvelatipes__voucher_RET_674-9_internal_transcribed_spacer_1                      59.14%    passed     73.53%
+ 128  MK204467.1_Amanita_sp.__subvelatipes__voucher_RET_483-10_18S_ribosomal_RNA_gene                            49.45%    passed     91.47%
+ 129  MT421965.1_Amanita_sp.__ameripanthera__voucher_RET_115-8_18S_ribosomal_RNA_gene                            47.11%    passed     98.99%
+ 130  KP313594.1_Amanita_wellsii_voucher_RET_395-6_18S_ribosomal_RNA_gene                                        49.69%    passed     75.88%
+ 131  KU248115.1_Amanita_wellsii_voucher_RET_387-5_18S_ribosomal_RNA_gene                                        48.05%    passed     75.07%
+ 132  KY435405.1_Amanita_sp.__sp-AUS14__voucher_RET_688-3_18S_ribosomal_RNA_gene                                 47.58%    passed     75.20%
+ 133  KY435406.1_Amanita_sp.__sp-AUS14__voucher_RET_688-4_18S_ribosomal_RNA_gene                                 45.23%    passed     85.06%
+ 134  KY435407.1_Amanita_sp.__sp-AUS14__voucher_RET_688-8_18S_ribosomal_RNA_gene                                 45.31%    passed     86.17%
+ 135  EU071961.1_Amanita_sp._MICH-232906_strain_LG1045_internal_transcribed_spacer_1                             50.16%    passed     95.00%
+ 136  EU071962.1_Amanita_sp._MICH-232906_strain_LG1066_internal_transcribed_spacer_1                             50.16%    passed     95.00%
+ 137  EU071959.1_Amanita_sp.__sp-LG862__strain_LG864_internal_transcribed_spacer_1                               52.42%    passed     98.01%
+ 138  EU071958.1_Amanita_sp.__sp-LG862__strain_LG862_internal_transcribed_spacer_1                               52.89%    passed     91.88%
+ 139  KP224312.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c8_18S_ribosomal_RNA_gene                          51.64%    passed     65.99%
+ 140  KP224313.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c2_18S_ribosomal_RNA_gene                          51.88%    passed     62.11%
+ 141  KP224314.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c1_18S_ribosomal_RNA_gene                          51.72%    passed     62.29%
+ 142  KP224315.1_Amanita_sp.__sp-N60__voucher_RET_449-6_clone_c5_18S_ribosomal_RNA_gene                          51.64%    passed     72.41%
+ 143  JX844722.1_Amanita_sp._jack2_strain_RET-354-8_internal_transcribed_spacer_1                                58.05%    passed     82.05%
+ 144  JX844723.1_Amanita_sp._jack3_strain_RET-252-9_internal_transcribed_spacer_1                                58.20%    passed     81.03%
+WARNING: 44 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                                                                                      49.52%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KU248126.1_Amanita_albocreata_voucher_RET_417-4_18S_ribosomal_RNA_gene is identical to KU248125.1_Amanita_albocreata_voucher_RET_329-10_18S_ribosomal_RNA_gene but kept for subsequent analysis
+NOTE: EU071910.1_Amanita_muscaria_strain_CMP0648_internal_transcribed_spacer_1 is identical to EU071913.1_Amanita_muscaria_strain_RET144-10_internal_transcribed_spacer_1 but kept for subsequent analysis
+NOTE: EU071896.1_Amanita_muscaria_strain_RET124-2_internal_transcribed_spacer_1 is identical to EU071893.1_Amanita_muscaria_strain_RET383-3_internal_transcribed_spacer_1 but kept for subsequent analysis
+NOTE: AB080986.1_Amanita_ibotengutake_genes_for_18S_rRNA is identical to AB080985.1_Amanita_ibotengutake_genes_for_18S_rRNA but kept for subsequent analysis
+NOTE: EU071912.1_Amanita_muscaria_strain_RET036-3_internal_transcribed_spacer_1 is identical to EU071890.1_Amanita_muscaria_strain_RET032-1_internal_transcribed_spacer_1 but kept for subsequent analysis
+NOTE: EU071895.1_Amanita_muscaria_strain_RET149-1_internal_transcribed_spacer_1 is identical to EU071894.1_Amanita_muscaria_strain_RET149-2_internal_transcribed_spacer_1 but kept for subsequent analysis
+NOTE: EU071888.1_Amanita_persicina_strain_RET112-6_internal_transcribed_spacer_1 is identical to EU071887.1_Amanita_persicina_strain_RET112-5_internal_transcribed_spacer_1 but kept for subsequent analysis
+NOTE: AB080782.1_Amanita_muscaria_var._regalis_genes_for_18S_rRNA is identical to AB080780.1_Amanita_muscaria_var._regalis_genes_for_18S_rRNA but kept for subsequent analysis
+NOTE: EU071962.1_Amanita_sp._MICH-232906_strain_LG1066_internal_transcribed_spacer_1 is identical to EU071961.1_Amanita_sp._MICH-232906_strain_LG1045_internal_transcribed_spacer_1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000844955 secs using 72.9% CPU
+Identifying sites to remove: done in 0.00290799 secs using 79.13% CPU
+NOTE: 5 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: EU071903.1_Amanita_muscaria_strain_RET145-2_internal_transcribed_spacer_1 (identical to EU071913.1_Amanita_muscaria_strain_RET144-10_internal_transcribed_spacer_1) is ignored but added at the end
+NOTE: EU071889.1_Amanita_muscaria_strain_CMP3143_internal_transcribed_spacer_1 (identical to EU071913.1_Amanita_muscaria_strain_RET144-10_internal_transcribed_spacer_1) is ignored but added at the end
+NOTE: EU071891.1_Amanita_persicina_strain_RET151-6_internal_transcribed_spacer_1 (identical to EU071887.1_Amanita_persicina_strain_RET112-5_internal_transcribed_spacer_1) is ignored but added at the end
+NOTE: EU071892.1_Amanita_persicina_strain_RET151-4_internal_transcribed_spacer_1 (identical to EU071887.1_Amanita_persicina_strain_RET112-5_internal_transcribed_spacer_1) is ignored but added at the end
+NOTE: EU071926.1_Amanita_persicina_strain_RET328-2_internal_transcribed_spacer_1 (identical to EU071887.1_Amanita_persicina_strain_RET112-5_internal_transcribed_spacer_1) is ignored but added at the end
+Alignment was printed to ITS_tr_al.fa.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to ITS_tr_al.fa.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.010 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.473818 secs using 98.91% CPU
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -8561.344
+Optimal log-likelihood: -8561.076
+Rate parameters:  A-C: 1.05126  A-G: 3.35815  A-T: 1.91121  C-G: 0.48327  C-T: 3.76981  G-T: 1.00000
+Base frequencies:  A: 0.257  C: 0.194  G: 0.235  T: 0.315
+Proportion of invariable sites: 0.255
+Gamma shape alpha: 0.924
+Parameters optimization took 1 rounds (0.177 sec)
+Time for fast ML tree search: 1.315 seconds
+
+NOTE: ModelFinder requires 33 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 1280) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         9040.999     283 18647.999    18809.388    20106.755
+  2  GTR+F+I       8706.371     284 17980.743    18143.436    19444.654
+  3  GTR+F+G4      8566.128     284 17700.256    17862.950    19164.167
+  4  GTR+F+I+G4    8560.749     285 17691.498    17855.502    19160.564
+  5  GTR+F+R2      8606.919     285 17783.837    17947.841    19252.903
+  6  GTR+F+R3      8555.716     287 17685.432    17852.077    19164.806
+  7  GTR+F+R4      8546.659     289 17671.317    17840.630    19161.001
+  8  GTR+F+R5      8546.453     291 17674.907    17846.915    19174.900
+ 14  GTR+F+I+R2    8564.679     286 17701.358    17866.680    19175.578
+ 15  GTR+F+I+R3    8546.260     288 17668.520    17836.495    19153.049
+ 16  GTR+F+I+R4    8545.396     290 17670.792    17841.450    19165.631
+ 26  SYM+I+G4      8601.034     282 17766.069    17926.161    19219.670
+ 29  SYM+R4        8597.034     286 17766.069    17931.390    19240.289
+ 37  SYM+I+R3      8586.966     285 17743.931    17907.935    19212.996
+ 48  TVM+F+I+G4    8561.282     284 17690.565    17853.258    19154.476
+ 51  TVM+F+R4      8547.758     288 17671.517    17839.493    19156.046
+ 59  TVM+F+I+R3    8546.929     287 17667.859    17834.504    19147.233
+ 70  TVMe+I+G4     8602.097     281 17766.195    17924.997    19214.642
+ 73  TVMe+R4       8597.878     285 17765.756    17929.760    19234.822
+ 81  TVMe+I+R3     8588.212     284 17744.425    17907.118    19208.335
+ 92  TIM3+F+I+G4   8579.814     283 17725.628    17887.018    19184.384
+ 95  TIM3+F+R4     8564.132     287 17702.263    17868.909    19181.638
+103  TIM3+F+I+R3   8562.092     286 17696.184    17861.506    19170.404
+114  TIM3e+I+G4    8625.366     280 17810.733    17968.250    19254.025
+117  TIM3e+R4      8621.437     284 17810.873    17973.567    19274.784
+125  TIM3e+I+R3    8610.383     283 17786.765    17948.155    19245.522
+136  TIM2+F+I+G4   8575.882     283 17717.763    17879.153    19176.519
+139  TIM2+F+R4     8561.846     287 17697.691    17864.336    19177.066
+147  TIM2+F+I+R3   8560.806     286 17693.611    17858.932    19167.831
+158  TIM2e+I+G4    8648.783     280 17857.566    18015.084    19300.859
+161  TIM2e+R4      8643.910     284 17855.820    18018.514    19319.731
+169  TIM2e+I+R3    8636.394     283 17838.787    18000.177    19297.543
+180  TIM+F+I+G4    8592.117     283 17750.234    17911.624    19208.990
+183  TIM+F+R4      8575.621     287 17725.243    17891.888    19204.617
+191  TIM+F+I+R3    8573.317     286 17718.635    17883.956    19192.855
+202  TIMe+I+G4     8669.288     280 17898.575    18056.093    19341.868
+205  TIMe+R4       8654.571     284 17877.142    18039.835    19341.053
+213  TIMe+I+R3     8653.405     283 17872.811    18034.200    19331.567
+224  TPM3u+F+I+G4  8580.454     282 17724.907    17885.000    19178.509
+227  TPM3u+F+R4    8565.219     286 17702.438    17867.759    19176.658
+235  TPM3u+F+I+R3  8562.775     285 17695.551    17859.555    19164.616
+246  TPM3+I+G4     8626.453     279 17810.906    17967.146    19249.044
+249  TPM3+R4       8622.341     283 17810.681    17972.071    19269.438
+257  TPM3+I+R3     8611.633     282 17787.266    17947.358    19240.868
+268  TPM2u+F+I+G4  8576.910     282 17717.819    17877.911    19171.421
+271  TPM2u+F+R4    8563.300     286 17698.600    17863.921    19172.820
+279  TPM2u+F+I+R3  8561.676     285 17693.352    17857.357    19162.418
+290  TPM2+I+G4     8649.585     279 17857.170    18013.410    19295.308
+293  TPM2+R4       8645.224     283 17856.449    18017.838    19315.205
+301  TPM2+I+R3     8637.186     282 17838.371    17998.463    19291.973
+312  K3Pu+F+I+G4   8593.154     282 17750.308    17910.401    19203.910
+315  K3Pu+F+R4     8576.974     286 17725.949    17891.270    19200.169
+323  K3Pu+F+I+R3   8574.240     285 17718.481    17882.485    19187.546
+334  K3P+I+G4      8670.195     279 17898.391    18054.631    19336.529
+337  K3P+R4        8655.966     283 17877.932    18039.321    19336.688
+345  K3P+I+R3      8654.249     282 17872.498    18032.591    19326.100
+356  TN+F+I+G4     8595.161     282 17754.322    17914.415    19207.924
+359  TN+F+R4       8578.170     286 17728.339    17893.661    19202.559
+367  TN+F+I+R3     8575.645     285 17721.290    17885.294    19190.356
+378  TNe+I+G4      8673.251     279 17904.502    18060.742    19342.640
+381  TNe+R4        8658.316     283 17882.632    18044.022    19341.388
+389  TNe+I+R3      8656.977     282 17877.953    18038.046    19331.555
+400  HKY+F+I+G4    8596.154     281 17754.308    17913.110    19202.755
+403  HKY+F+R4      8579.452     285 17728.904    17892.908    19197.970
+411  HKY+F+I+R3    8576.607     284 17721.214    17883.908    19185.125
+422  K2P+I+G4      8674.133     278 17904.266    18059.236    19337.250
+425  K2P+R4        8659.674     282 17883.347    18043.440    19336.949
+433  K2P+I+R3      8657.835     281 17877.670    18036.471    19326.117
+444  F81+F+I+G4    8761.892     280 18083.783    18241.301    19527.075
+447  F81+F+R4      8750.551     284 18069.103    18231.796    19533.013
+455  F81+F+I+R3    8747.472     283 18060.944    18222.334    19519.700
+466  JC+I+G4       8830.644     277 18215.288    18368.993    19643.117
+469  JC+R4         8819.719     281 18201.438    18360.240    19649.885
+477  JC+I+R3       8817.663     280 18195.326    18352.844    19638.618
+Akaike Information Criterion:           TVM+F+I+R3
+Corrected Akaike Information Criterion: TVM+F+I+R3
+Bayesian Information Criterion:         TVM+F+I+R3
+Best-fit model: TVM+F+I+R3 chosen according to BIC
+
+All model information printed to ITS_tr_al.fa.model.gz
+CPU time for ModelFinder: 242.149 seconds (0h:4m:2s)
+Wall-clock time for ModelFinder: 244.265 seconds (0h:4m:4s)
+
+NOTE: 10 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -8546.929
+Optimal log-likelihood: -8546.868
+Rate parameters:  A-C: 1.00543  A-G: 3.54787  A-T: 1.83733  C-G: 0.48763  C-T: 3.54787  G-T: 1.00000
+Base frequencies:  A: 0.257  C: 0.194  G: 0.235  T: 0.315
+Proportion of invariable sites: 0.283
+Site proportion and rates:  (0.401,0.414) (0.270,1.866) (0.046,7.165)
+Parameters optimization took 1 rounds (0.141 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0499849 secs using 99.07% CPU
+Computing ML distances took 0.050325 sec (of wall-clock time) 0.049810 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000400066 secs using 156.5% CPU
+Constructing RapidNJ tree: done in 0.00116205 secs using 184.8% CPU
+Computing RapidNJ tree took 0.001669 sec (of wall-clock time) 0.002919 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -8826.652
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.976 second
+Computing log-likelihood of 98 initial trees ... 1.613 seconds
+Current best score: -8546.868
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.105095 secs using 98.84% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8546.821
+Optimizing NNI: done in 0.498604 secs using 98.81% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -8523.296
+Optimizing NNI: done in 0.472868 secs using 98.78% CPU
+Optimizing NNI: done in 0.464489 secs using 98.68% CPU
+Optimizing NNI: done in 0.455968 secs using 98.85% CPU
+Optimizing NNI: done in 0.440117 secs using 98.76% CPU
+Optimizing NNI: done in 0.471536 secs using 98.72% CPU
+Optimizing NNI: done in 0.51566 secs using 98.68% CPU
+Optimizing NNI: done in 0.45264 secs using 98.84% CPU
+Optimizing NNI: done in 0.456471 secs using 98.52% CPU
+Iteration 10 / LogL: -8529.223 / Time: 0h:0m:7s
+Optimizing NNI: done in 0.467543 secs using 98.48% CPU
+Optimizing NNI: done in 0.472355 secs using 98.59% CPU
+Optimizing NNI: done in 0.474347 secs using 98.78% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 13: -8522.705
+Optimizing NNI: done in 0.487716 secs using 99.02% CPU
+Optimizing NNI: done in 0.515705 secs using 99.22% CPU
+Optimizing NNI: done in 0.465451 secs using 99.18% CPU
+Optimizing NNI: done in 0.448844 secs using 98.87% CPU
+Optimizing NNI: done in 0.440458 secs using 98.74% CPU
+Optimizing NNI: done in 0.499031 secs using 98.61% CPU
+Optimizing NNI: done in 0.45096 secs using 98.8% CPU
+Iteration 20 / LogL: -8523.568 / Time: 0h:0m:12s
+Finish initializing candidate tree set (20)
+Current best tree score: -8522.705 / CPU time: 12.470
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 0.682002 secs using 99.15% CPU
+Optimizing NNI: done in 0.65914 secs using 98.95% CPU
+Optimizing NNI: done in 0.593809 secs using 99.16% CPU
+Optimizing NNI: done in 0.543107 secs using 99.03% CPU
+Optimizing NNI: done in 0.480421 secs using 99.27% CPU
+Optimizing NNI: done in 0.607639 secs using 99.28% CPU
+Optimizing NNI: done in 0.524636 secs using 99.38% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 27: -8521.486
+Optimizing NNI: done in 0.457692 secs using 99.14% CPU
+Optimizing NNI: done in 0.53584 secs using 99.3% CPU
+Optimizing NNI: done in 0.490703 secs using 99.26% CPU
+Iteration 30 / LogL: -8523.252 / Time: 0h:0m:18s (0h:1m:2s left)
+Optimizing NNI: done in 0.537034 secs using 99.17% CPU
+Optimizing NNI: done in 0.477456 secs using 99.08% CPU
+Optimizing NNI: done in 0.653444 secs using 99.1% CPU
+Optimizing NNI: done in 0.654743 secs using 99.17% CPU
+Optimizing NNI: done in 0.616517 secs using 99.03% CPU
+Optimizing NNI: done in 0.597245 secs using 99.08% CPU
+Optimizing NNI: done in 0.515825 secs using 98.95% CPU
+Optimizing NNI: done in 0.487816 secs using 99.03% CPU
+Optimizing NNI: done in 0.564374 secs using 99.21% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -8520.968
+Optimizing NNI: done in 0.589786 secs using 98.92% CPU
+Iteration 40 / LogL: -8537.641 / Time: 0h:0m:24s (0h:1m:2s left)
+Optimizing NNI: done in 0.42511 secs using 99.14% CPU
+Optimizing NNI: done in 0.558701 secs using 98.98% CPU
+Optimizing NNI: done in 0.51796 secs using 98.82% CPU
+Optimizing NNI: done in 0.482961 secs using 99.15% CPU
+Optimizing NNI: done in 0.552088 secs using 99.31% CPU
+Optimizing NNI: done in 0.641995 secs using 99.11% CPU
+Optimizing NNI: done in 0.626625 secs using 99.12% CPU
+Optimizing NNI: done in 0.489105 secs using 99.05% CPU
+Optimizing NNI: done in 0.508048 secs using 98.9% CPU
+Optimizing NNI: done in 0.518834 secs using 99.24% CPU
+Iteration 50 / LogL: -8527.346 / Time: 0h:0m:30s (0h:0m:54s left)
+Optimizing NNI: done in 0.461774 secs using 98.94% CPU
+Optimizing NNI: done in 0.758459 secs using 99.04% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 52: -8518.291
+Optimizing NNI: done in 0.696941 secs using 99.08% CPU
+Optimizing NNI: done in 0.622603 secs using 99.02% CPU
+Optimizing NNI: done in 0.606811 secs using 98.86% CPU
+Optimizing NNI: done in 0.570725 secs using 99.08% CPU
+Optimizing NNI: done in 0.601529 secs using 99.16% CPU
+Optimizing NNI: done in 0.553793 secs using 98.95% CPU
+Optimizing NNI: done in 0.640116 secs using 98.93% CPU
+Optimizing NNI: done in 0.62427 secs using 98.8% CPU
+Iteration 60 / LogL: -8521.535 / Time: 0h:0m:36s (0h:0m:56s left)
+Optimizing NNI: done in 0.540291 secs using 98.81% CPU
+Optimizing NNI: done in 0.603954 secs using 98.68% CPU
+Optimizing NNI: done in 0.556641 secs using 98.87% CPU
+Optimizing NNI: done in 0.546931 secs using 99.07% CPU
+Optimizing NNI: done in 0.519968 secs using 99.02% CPU
+Optimizing NNI: done in 0.552874 secs using 98.7% CPU
+Optimizing NNI: done in 0.642059 secs using 98.83% CPU
+Optimizing NNI: done in 0.594867 secs using 99.02% CPU
+Optimizing NNI: done in 0.571389 secs using 98.87% CPU
+Optimizing NNI: done in 0.588497 secs using 98.81% CPU
+Iteration 70 / LogL: -8522.530 / Time: 0h:0m:42s (0h:0m:50s left)
+Optimizing NNI: done in 0.63254 secs using 98.94% CPU
+Optimizing NNI: done in 0.579486 secs using 98.85% CPU
+Optimizing NNI: done in 0.635285 secs using 98.93% CPU
+BETTER TREE FOUND at iteration 73: -8518.291
+Optimizing NNI: done in 0.544525 secs using 98.8% CPU
+Optimizing NNI: done in 0.609469 secs using 98.7% CPU
+Optimizing NNI: done in 0.598292 secs using 98.84% CPU
+Optimizing NNI: done in 0.513009 secs using 98.86% CPU
+BETTER TREE FOUND at iteration 77: -8518.284
+Optimizing NNI: done in 0.616521 secs using 98.83% CPU
+Optimizing NNI: done in 0.484938 secs using 99.02% CPU
+Optimizing NNI: done in 0.586336 secs using 98.97% CPU
+Iteration 80 / LogL: -8518.299 / Time: 0h:0m:48s (0h:0m:58s left)
+Optimizing NNI: done in 0.513902 secs using 98.91% CPU
+Optimizing NNI: done in 0.536008 secs using 99.3% CPU
+Optimizing NNI: done in 0.651369 secs using 99.29% CPU
+Optimizing NNI: done in 0.651177 secs using 99.24% CPU
+Optimizing NNI: done in 0.616855 secs using 99.04% CPU
+Optimizing NNI: done in 0.709772 secs using 98.81% CPU
+Optimizing NNI: done in 0.51019 secs using 98.8% CPU
+Optimizing NNI: done in 0.634477 secs using 98.91% CPU
+Optimizing NNI: done in 0.643763 secs using 98.92% CPU
+Optimizing NNI: done in 0.690625 secs using 98.93% CPU
+Iteration 90 / LogL: -8518.300 / Time: 0h:0m:54s (0h:0m:53s left)
+Optimizing NNI: done in 0.653439 secs using 98.75% CPU
+Optimizing NNI: done in 0.551775 secs using 98.87% CPU
+Optimizing NNI: done in 0.636988 secs using 98.94% CPU
+Optimizing NNI: done in 0.61292 secs using 98.91% CPU
+Optimizing NNI: done in 0.595629 secs using 98.85% CPU
+Optimizing NNI: done in 0.615338 secs using 98.82% CPU
+Optimizing NNI: done in 0.586404 secs using 99.02% CPU
+Optimizing NNI: done in 0.540842 secs using 98.87% CPU
+Optimizing NNI: done in 0.554514 secs using 98.74% CPU
+Optimizing NNI: done in 0.4926 secs using 98.88% CPU
+Iteration 100 / LogL: -8518.297 / Time: 0h:1m:0s (0h:0m:46s left)
+Optimizing NNI: done in 0.397861 secs using 98.91% CPU
+Optimizing NNI: done in 0.592427 secs using 99.24% CPU
+Optimizing NNI: done in 0.60354 secs using 99.29% CPU
+Optimizing NNI: done in 0.456412 secs using 99.22% CPU
+Optimizing NNI: done in 0.648146 secs using 99.17% CPU
+Optimizing NNI: done in 0.580794 secs using 99.19% CPU
+Optimizing NNI: done in 0.556206 secs using 99.13% CPU
+Optimizing NNI: done in 0.539402 secs using 99.05% CPU
+Optimizing NNI: done in 0.577284 secs using 99.11% CPU
+Optimizing NNI: done in 0.586494 secs using 99.15% CPU
+Iteration 110 / LogL: -8518.296 / Time: 0h:1m:5s (0h:0m:40s left)
+Optimizing NNI: done in 0.554872 secs using 99.09% CPU
+Optimizing NNI: done in 0.662674 secs using 99.24% CPU
+Optimizing NNI: done in 0.567428 secs using 99.19% CPU
+Optimizing NNI: done in 0.502242 secs using 99.07% CPU
+Optimizing NNI: done in 0.654292 secs using 99.11% CPU
+Optimizing NNI: done in 0.652155 secs using 99.07% CPU
+Optimizing NNI: done in 0.605125 secs using 99.17% CPU
+Optimizing NNI: done in 0.555505 secs using 99.2% CPU
+Optimizing NNI: done in 0.520091 secs using 99.33% CPU
+Optimizing NNI: done in 0.535956 secs using 99.24% CPU
+Iteration 120 / LogL: -8529.714 / Time: 0h:1m:11s (0h:0m:34s left)
+Optimizing NNI: done in 0.499029 secs using 99.21% CPU
+Optimizing NNI: done in 0.688136 secs using 99.22% CPU
+Optimizing NNI: done in 0.54731 secs using 99.26% CPU
+Optimizing NNI: done in 0.634232 secs using 99.21% CPU
+Optimizing NNI: done in 0.625468 secs using 99.3% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 125: -8517.615
+Optimizing NNI: done in 0.635351 secs using 99.25% CPU
+Optimizing NNI: done in 0.505653 secs using 99.18% CPU
+Optimizing NNI: done in 0.578679 secs using 99.28% CPU
+Optimizing NNI: done in 0.6845 secs using 99.27% CPU
+Optimizing NNI: done in 0.625353 secs using 99.26% CPU
+Iteration 130 / LogL: -8524.966 / Time: 0h:1m:17s (0h:0m:57s left)
+Optimizing NNI: done in 0.59558 secs using 99.34% CPU
+Optimizing NNI: done in 0.782696 secs using 99.31% CPU
+Optimizing NNI: done in 0.638364 secs using 99.3% CPU
+Optimizing NNI: done in 0.658427 secs using 99.26% CPU
+Optimizing NNI: done in 0.629403 secs using 99.29% CPU
+Optimizing NNI: done in 0.539669 secs using 99.2% CPU
+Optimizing NNI: done in 0.561163 secs using 99.25% CPU
+Optimizing NNI: done in 0.505603 secs using 99.26% CPU
+Optimizing NNI: done in 0.510903 secs using 99.27% CPU
+Optimizing NNI: done in 0.593599 secs using 99.34% CPU
+Iteration 140 / LogL: -8518.316 / Time: 0h:1m:23s (0h:0m:51s left)
+Optimizing NNI: done in 0.476668 secs using 99.06% CPU
+Optimizing NNI: done in 0.52394 secs using 99.34% CPU
+Optimizing NNI: done in 0.552755 secs using 99.1% CPU
+Optimizing NNI: done in 0.582221 secs using 99.16% CPU
+Optimizing NNI: done in 0.634457 secs using 99.19% CPU
+Optimizing NNI: done in 0.488549 secs using 99.35% CPU
+Optimizing NNI: done in 0.557564 secs using 99.16% CPU
+Optimizing NNI: done in 0.534451 secs using 99.29% CPU
+Optimizing NNI: done in 0.496555 secs using 99.06% CPU
+Optimizing NNI: done in 0.606419 secs using 99.32% CPU
+Iteration 150 / LogL: -8518.329 / Time: 0h:1m:29s (0h:0m:45s left)
+Optimizing NNI: done in 0.590607 secs using 99.2% CPU
+Optimizing NNI: done in 0.650528 secs using 99.21% CPU
+Optimizing NNI: done in 0.534123 secs using 99.09% CPU
+Optimizing NNI: done in 0.661485 secs using 99.15% CPU
+Optimizing NNI: done in 0.479146 secs using 99.14% CPU
+Optimizing NNI: done in 0.592133 secs using 99.24% CPU
+Optimizing NNI: done in 0.555237 secs using 99.11% CPU
+Optimizing NNI: done in 0.602686 secs using 99.29% CPU
+Optimizing NNI: done in 0.61652 secs using 99.16% CPU
+Optimizing NNI: done in 0.706513 secs using 98.98% CPU
+Iteration 160 / LogL: -8523.832 / Time: 0h:1m:35s (0h:0m:39s left)
+Optimizing NNI: done in 0.59578 secs using 99.22% CPU
+Optimizing NNI: done in 0.548723 secs using 99.31% CPU
+Optimizing NNI: done in 0.474524 secs using 99.29% CPU
+Optimizing NNI: done in 0.584159 secs using 99.26% CPU
+Optimizing NNI: done in 0.509651 secs using 99.28% CPU
+Optimizing NNI: done in 0.581777 secs using 99.37% CPU
+Optimizing NNI: done in 0.50291 secs using 99.39% CPU
+Optimizing NNI: done in 0.622174 secs using 99.35% CPU
+Optimizing NNI: done in 0.589796 secs using 99.26% CPU
+Optimizing NNI: done in 0.55143 secs using 99.2% CPU
+Iteration 170 / LogL: -8556.123 / Time: 0h:1m:41s (0h:0m:32s left)
+Optimizing NNI: done in 0.675706 secs using 99.31% CPU
+Optimizing NNI: done in 0.644059 secs using 99.23% CPU
+Optimizing NNI: done in 0.579352 secs using 99.38% CPU
+Optimizing NNI: done in 0.535195 secs using 99.23% CPU
+Optimizing NNI: done in 0.598722 secs using 99.3% CPU
+Optimizing NNI: done in 0.542535 secs using 99.29% CPU
+Optimizing NNI: done in 0.553618 secs using 99.27% CPU
+Optimizing NNI: done in 0.638274 secs using 99.32% CPU
+Optimizing NNI: done in 0.570401 secs using 99.22% CPU
+Optimizing NNI: done in 0.586306 secs using 99.38% CPU
+Iteration 180 / LogL: -8518.000 / Time: 0h:1m:47s (0h:0m:26s left)
+Optimizing NNI: done in 0.668888 secs using 99.3% CPU
+Optimizing NNI: done in 0.608291 secs using 99.35% CPU
+Optimizing NNI: done in 0.631037 secs using 99.17% CPU
+Optimizing NNI: done in 0.61623 secs using 99.19% CPU
+Optimizing NNI: done in 0.636524 secs using 99.24% CPU
+Optimizing NNI: done in 0.849684 secs using 99.31% CPU
+Optimizing NNI: done in 0.627859 secs using 99.26% CPU
+Optimizing NNI: done in 0.656603 secs using 99.4% CPU
+Optimizing NNI: done in 0.511794 secs using 99.31% CPU
+Optimizing NNI: done in 0.619305 secs using 99.23% CPU
+Iteration 190 / LogL: -8517.996 / Time: 0h:1m:53s (0h:0m:21s left)
+Optimizing NNI: done in 0.654666 secs using 99.24% CPU
+Optimizing NNI: done in 0.659111 secs using 99.24% CPU
+Optimizing NNI: done in 0.568909 secs using 99.25% CPU
+Optimizing NNI: done in 0.45489 secs using 99.25% CPU
+Optimizing NNI: done in 0.60462 secs using 99.21% CPU
+Optimizing NNI: done in 0.506676 secs using 99.21% CPU
+Optimizing NNI: done in 0.725937 secs using 99.14% CPU
+Optimizing NNI: done in 0.51055 secs using 99.12% CPU
+Optimizing NNI: done in 0.494504 secs using 99.23% CPU
+Optimizing NNI: done in 0.571649 secs using 99.33% CPU
+Iteration 200 / LogL: -8571.341 / Time: 0h:1m:59s (0h:0m:15s left)
+Optimizing NNI: done in 0.560245 secs using 99.25% CPU
+Optimizing NNI: done in 0.685334 secs using 99.2% CPU
+Optimizing NNI: done in 0.892013 secs using 99.17% CPU
+Optimizing NNI: done in 0.461419 secs using 99.22% CPU
+Optimizing NNI: done in 0.523746 secs using 99.4% CPU
+Optimizing NNI: done in 0.696844 secs using 99.26% CPU
+Optimizing NNI: done in 0.622297 secs using 99.28% CPU
+Optimizing NNI: done in 0.650613 secs using 99.29% CPU
+Optimizing NNI: done in 0.74044 secs using 99.34% CPU
+Optimizing NNI: done in 0.498684 secs using 99.35% CPU
+Iteration 210 / LogL: -8518.516 / Time: 0h:2m:5s (0h:0m:9s left)
+Optimizing NNI: done in 0.549211 secs using 99.35% CPU
+Optimizing NNI: done in 0.506782 secs using 99.28% CPU
+Optimizing NNI: done in 0.697629 secs using 99.24% CPU
+Optimizing NNI: done in 0.736658 secs using 99.18% CPU
+Optimizing NNI: done in 0.540017 secs using 99.2% CPU
+Optimizing NNI: done in 0.567033 secs using 99.22% CPU
+Optimizing NNI: done in 0.649677 secs using 99.17% CPU
+Optimizing NNI: done in 0.572749 secs using 99.24% CPU
+Optimizing NNI: done in 0.424727 secs using 99.23% CPU
+Optimizing NNI: done in 0.625209 secs using 99.3% CPU
+Iteration 220 / LogL: -8522.385 / Time: 0h:2m:11s (0h:0m:3s left)
+Optimizing NNI: done in 0.552082 secs using 99.11% CPU
+Optimizing NNI: done in 0.540187 secs using 99.22% CPU
+Optimizing NNI: done in 0.749158 secs using 99.3% CPU
+Optimizing NNI: done in 0.623467 secs using 99.22% CPU
+Optimizing NNI: done in 0.627817 secs using 99.39% CPU
+Optimizing NNI: done in 0.510354 secs using 99.36% CPU
+TREE SEARCH COMPLETED AFTER 226 ITERATIONS / Time: 0h:2m:15s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8517.615
+Optimal log-likelihood: -8517.608
+Rate parameters:  A-C: 0.95610  A-G: 3.53435  A-T: 1.80241  C-G: 0.45434  C-T: 3.53435  G-T: 1.00000
+Base frequencies:  A: 0.257  C: 0.194  G: 0.235  T: 0.315
+Proportion of invariable sites: 0.289
+Site proportion and rates:  (0.408,0.440) (0.268,2.017) (0.035,7.909)
+Parameters optimization took 1 rounds (0.132 sec)
+BEST SCORE FOUND : -8517.608
+Total tree length: 4.300
+
+Total number of iterations: 226
+CPU time used for tree search: 134.033 sec (0h:2m:14s)
+Wall-clock time used for tree search: 135.158 sec (0h:2m:15s)
+Total CPU time used: 134.553 sec (0h:2m:14s)
+Total wall-clock time used: 135.600 sec (0h:2m:15s)
+
+Analysis results written to: 
+  IQ-TREE report:                ITS_tr_al.fa.iqtree
+  Maximum-likelihood tree:       ITS_tr_al.fa.treefile
+  Likelihood distances:          ITS_tr_al.fa.mldist
+  Screen log file:               ITS_tr_al.fa.log
+
+Date and Time: Mon Jun 12 12:17:10 2023
