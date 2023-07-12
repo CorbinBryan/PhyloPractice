@@ -67,3 +67,20 @@ f(G|\Theta)=\prod_{i} f(G_i|\Theta)= \prod_{i} f(T_i,t_i|\Theta).
 $$
 
 Because of the complicated nature of this algorithm, most programs split up gene trees into quartetts to make calculations easier. 
+
+## II. Maximum Likelihood Analysis: two step methods 
+The algorithm that searches species-tree space is otherwise comparable to those used for maximum likelihood inference of gene-trees. Briefly, a starting tree is proposed and parameters are estimated by maximizing the likelihood of observing a gene tree given a species tree topology. The tree is then altered, resulting in a new tree. If the original tree has a lower maximum likelihood, the new tree is accepted and the process is repeated on the new tree. Otherwise, the process is repeated on the same tree until a better tree is found. 
+
+ML methods often require two steps to generate a species tree from a set of aligned loci. Inferring species trees directly from a set of alignments would require integration across all possible gene trees and parameters. This is intractable. As such, ML methods for inferring species trees do so from gene trees. For clarity, a simple work flow (incl. all steps from alignment to species tree) might look something like this:  
+1. Align each .fasta file corresponding to an individual locus (using MAFFT, MUSCLE, ClustalW, etc). 
+2. Infer a maximum likelihood gene tree for each of the aligned loci (using IQTree2, RAxML-NG, etc). 
+3. Feed gene trees into program to infer species tree (ASTRAL is currently the industry standard program for ML based species tree inference).   
+
+Note that in the above, only ML methods are used. **Do not combine Bayesian and Maximum Likelihood approaches, ever**... unless a statistician tells you it's okay first. 
+
+## III. Bayesian Inference: the better option 
+It's outside of the scope of this document to cover all of the differences between Bayesian and ML inference. See `ML_Bayesian.md` for a refresher on Bayes' theorem. Briefly, the posterior probability $f(S,G,\Theta|D)$ describes the likelihood of observing species tree $S$, gene trees $G_i=\{T_i, t_i\}$ and population est./coalescent times $\Theta$ given a set of aligned sequence data, $D=\{D_i\}$. Bayes' theorem implies that this posterior distribution is proportional to the product of the likelihood function, $f(D|G)f(G|S, \Theta)$, and posterior probabilities $f(\Theta)f(S)$. These posterior probabilities are distributions describing our _a priori_ expectations about the average value and variance of the estimated parameters. $f(S)$ is unique in that it represents the prior on the topology of the tree. Often times, this is treated as a Yule model, which fits one parameter describing the speciation rate. A natural departure from the Yule prior is the Birth-Death model, which fits an additional parameter for species death over time, making it more accurate under certain conditions. 
+
+In short, the Markov Chain Monte Carlo (MCMC) algorithm used in Bayesian analysis roughly 'maps' the posterior distribution by calculating it's value for various estimates. If the estimates increase the value, that state is saved and record. Otherwise, the proposed change of state for the chain (which you can think of as the position on the posterior distribution) is rejected. 
+
+Due to the utility of the MCMC algorithm, species trees can be inferred directly from aligned loci. Moreover, the flexible nature of the MCMC algorithm allows for a number of additional analyses that require more (sometimes many more) parameters. 
